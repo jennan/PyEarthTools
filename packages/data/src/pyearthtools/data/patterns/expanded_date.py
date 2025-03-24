@@ -26,7 +26,7 @@ from pathlib import Path
 from typing import Any
 
 import pyearthtools.utils
-from pyearthtools.data import TimeResolution, pyearthtoolsDatetime
+from pyearthtools.data.time import TimeResolution, pyearthtoolsDatetime
 from pyearthtools.data.indexes import decorators
 from pyearthtools.data.patterns.default import (
     PatternForecastIndex,
