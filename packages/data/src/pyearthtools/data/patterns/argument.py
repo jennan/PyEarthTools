@@ -21,7 +21,7 @@ from typing import Any, Iterable
 import pyearthtools.utils
 from pyearthtools.data.indexes import decorators
 from pyearthtools.data.indexes.utilities import spellcheck
-from pyearthtools.data.patterns import PatternIndex, PatternVariableAware
+from pyearthtools.data.patterns.default import PatternIndex, PatternVariableAware
 from pyearthtools.utils.decorators import classproperty
 
 """
